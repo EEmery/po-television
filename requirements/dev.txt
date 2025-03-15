@@ -1,3 +1,6 @@
 black==23.3.0
 flake8==6.0.0
 coverage==7.0.1
+thonny==4.1.7
+rshell==0.0.36
+pipkin==2.1b1
