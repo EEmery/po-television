@@ -8,15 +8,26 @@ to connect a headset, speaker, etc.
 
 The PO television allows you to switch between animation patterns with the press of a button. It
 comes preloaded with a few animations, but you can easily add your own "animation samples" to the
-code (more details below).
+code.
 
 The pocket operator television is made entirely from off-the-shelf components and 3D printed parts.
 Its design tries to mimic the pocket operator: exposed black circuit boards, gold parts and strong
 colors in prominent parts. It's easy to build one for yourself!
 
+## Index
+
+1. [Electronics](#electronics)
+    - [Component List](#component-list)
+    - [The circuit](#the-circuit)
+2. [Hardware](#hardware)
+3. [The Code](#the-code)
+    - [Setup](#setup)
+    - [Diving into the code](#diving-into-the-code)
+    - [Adding your own animation](#adding-your-own-animation)
+
 ## Electronics
 
-#### Component List
+### Component List
 - 1x Raspberry Pi Pico W – the brains of the PO television
 - 2x 3.5m audio jack – this will act as the input and output line of the device
 - 1x button – to toggle between animations
@@ -32,7 +43,7 @@ colors in prominent parts. It's easy to build one for yourself!
 - 5x 100k 1 ohm resistors, 1x 470 ohm resistor and 1x 1000uF capacitor – these will be used
   throughout the circuit, more details below
 
-#### The circuit
+### The circuit
 
 ![Pocket Operator Television - Circuit Diagram](./resources/po-television-circuit-schematics.png)
 
@@ -79,7 +90,7 @@ don't have the same dimensions as mine.
 
 ## The code
 
-#### Setup
+### Setup
 
 You can download the repository as a `.zip` or clone the repository with `git clone
 git@github.com:EEmery/po-television.git`. The code uses MicroPython and you will need to install the
@@ -118,7 +129,7 @@ board, just run:
 python3 -m thonny
 ```
 
-#### Diving into the code
+### Diving into the code
 
 We basically have something similar to a "sense-plan-act" structure, common in the world of
 robotics. The code first reads the audio input signal and processes it into parameters that are
@@ -149,7 +160,7 @@ During this loop, we also keep checking to see if the animation button has been 
 happens, the code switches the animation function from a list of available animation functions for
 use.
 
-#### Adding your own animation
+### Adding your own animation
 
 Adding your animation is easy, you can start by replicating some of the existing animations to
 create your own.
@@ -181,7 +192,7 @@ other animations, since it allows the flexibility of any number of frames. This 
 the frames used, which form a different drawing.
 
 **4. Music visualization animation
-[`animation_music_visualization.py`](https://github.com/EEmery/po-television/blob/main/src/animation_wave.py)**
+[`animation_music_visualization.py`](https://github.com/EEmery/po-television/blob/main/src/animation_music_visualization.py)**
 
 This is a slightly more complex animation, compared to the others. It serves mainly to demonstrate a
 possible use of the parameters that are calculated from the audio input of the pocket operator. In
