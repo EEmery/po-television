@@ -44,7 +44,7 @@ I connected the LED matrix display as recommended by the [Adafruit team in the N
 
 The 3D printed case is very simple. It is meant to hold the display, circuit board, and animation toggle button together. The LED matrix display I purchased came with a JST cable soldered to it, so I used that to connect to the board. For consistency, I also used a JST cable to connect the animation toggle button to the circuit board. The main case and back cover can be joined together using M2 screws and nuts.
 
-You can find the 3D models I used in the `.stl` files in the `models` folder. Feel free to modify them to better suit your needs, as you may need to change them to fit your circuit board and display if they don't have the same dimensions as mine.
+You can find the 3D models I used in the `.stl` files [in the `models` folder](https://github.com/EEmery/po-television/tree/main/models). Feel free to modify them to better suit your needs, as you may need to change them to fit your circuit board and display if they don't have the same dimensions as mine.
 
 ## The code
 
