@@ -14,6 +14,17 @@ The pocket operator television is made entirely from off-the-shelf components an
 Its design tries to mimic the pocket operator: exposed black circuit boards, gold parts and strong
 colors in prominent parts. It's easy to build one for yourself!
 
+[Introducing the Pocket Operator Television - YouTube
+Video](https://www.youtube.com/shorts/iwwsih4J6I4)
+
+You can learn more details about the building process in the blog post:
+- [Making the Pocket Operator Television - by Eduardo
+  Emery](https://robotsandcoffeeco.substack.com/p/making-the-pocket-operator-television) (English)
+- [Criando o Pocket Operator Television - by Eduardo
+  Emery](https://robosecafe.substack.com/p/criando-o-pocket-operator-television) (Português)
+
+![Pocket Operator Television](./resources/po-television-final-photo.jpg)
+
 ## Index
 
 1. [Electronics](#electronics)
